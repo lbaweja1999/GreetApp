@@ -59,7 +59,7 @@ class _GreetAppState extends State<GreetApp> {
                     hintStyle: TextStyle(fontSize: 12),
                     helperText: "Enter name",
                     prefixIcon: Icon(Icons.account_circle,
-                        size: 20, color: Colors.black),
+                        size: 20, color: Colors.white),
                     suffixIcon: IconButton(
                       icon: Icon(Icons.clear),
                       onPressed: () => _controller_name.clear(),
@@ -91,7 +91,7 @@ class _GreetAppState extends State<GreetApp> {
                     hintStyle: TextStyle(fontSize: 12),
                     helperText: "Enter age",
                     prefixIcon: Icon(Icons.calendar_today,
-                        size: 20, color: Colors.black),
+                        size: 20, color: Colors.white),
                     suffixIcon: IconButton(
                       icon: Icon(Icons.clear),
                       onPressed: () => _controller_age.clear(),
