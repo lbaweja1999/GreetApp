@@ -48,7 +48,7 @@ class _GreetAppState extends State<GreetApp> {
                 controller: _controller_name,
                 style: TextStyle(
                     fontStyle: FontStyle.normal,
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 30),
                 onChanged: (name_get) {
                   name = name_get;
@@ -64,7 +64,7 @@ class _GreetAppState extends State<GreetApp> {
                       icon: Icon(Icons.clear),
                       onPressed: () => _controller_name.clear(),
                       iconSize: 20,
-                      color: Colors.black,
+                      color: Colors.white,
                     ),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(4))),
@@ -80,7 +80,7 @@ class _GreetAppState extends State<GreetApp> {
                 ], // Only numbers can be entered
                 style: TextStyle(
                     fontStyle: FontStyle.normal,
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 30),
                 onChanged: (age_get) {
                   age = age_get;
@@ -96,7 +96,7 @@ class _GreetAppState extends State<GreetApp> {
                       icon: Icon(Icons.clear),
                       onPressed: () => _controller_age.clear(),
                       iconSize: 20,
-                      color: Colors.black,
+                      color: Colors.white,
                     ),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(4))),
